@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #d4a373;
+}
+
+header #logo {
+  margin-left: 30px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#sidebar {
+  background-color: #faedcd !important;
+  width: 300px;
+}
+
+#sidebar .btn {
+  background-color: #d4a373;
+  border: none;
+  margin-left: 35px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
+
+#sidebar .btn:hover {
+  background-color: #faedcd;
+  border: solid 3px;
+  color: #d4a373;
+}
+
+#content {
+  flex-grow: 1;
+  border: 1px solid;
+  margin: 10px;
+}
+
+.chat-window {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  height: calc(85vh - 56px);
+  overflow-y: scroll;
+}
+
+.chat-input {
+  margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+/* anggota.css */
+
+/* Navbar */
+.navbar {
+    background-color: #d4a373;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+/* Cards */
+.card {
+    border: none; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: #FAEDCD; 
+    margin-bottom: 20px;
+}
+
+.card-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 200px; 
+    padding: 0; 
+    background-color: #d4a373; 
+    border-radius: 10px; 
+    margin: 0 12px; 
+}
+
+.card-img-top {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.card-body {
+    padding: 15px; 
+}
+
+.card-title {
+    background-color: #FAEDCD; 
+    color: black; 
+    padding: 10px; 
+    margin: 0; 
+}
+
+.card-text {
+    margin-bottom: 5px; 
+}
